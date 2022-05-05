@@ -3,11 +3,11 @@ package com.ad.HelloWorld;
 public class HelloWorld {
     private String message;
 
-    public String getMessage(){
+    public String getMessage() {
         return message;
     }
 
-    public void setMessage(String message){
+    public void setMessage(String message) {
         this.message = message;
     }
 }
