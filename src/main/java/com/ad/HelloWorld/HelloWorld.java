@@ -1,6 +1,6 @@
 package com.ad.HelloWorld;
 
-public class helloworld {
+public class HelloWorld {
     private String message;
 
     public String getMessage(){

@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller
 {
     @GetMapping("/")
-    public @ResponseBody helloworld getMessage()
+    public @ResponseBody HelloWorld getMessage()
     {
-        helloworld hw = new helloworld();
+        HelloWorld hw = new HelloWorld();
         hw.setMessage("Hello World");
         return hw;
     }
